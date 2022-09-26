@@ -1,5 +1,0 @@
-/home/victor-borges/Source/embedded-systems/tempo-de-espera-potenciometro/cmake-build-debug/CMakeFiles/Production.dir
-/home/victor-borges/Source/embedded-systems/tempo-de-espera-potenciometro/cmake-build-debug/CMakeFiles/Debug.dir
-/home/victor-borges/Source/embedded-systems/tempo-de-espera-potenciometro/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
-/home/victor-borges/Source/embedded-systems/tempo-de-espera-potenciometro/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/victor-borges/Source/embedded-systems/tempo-de-espera-potenciometro/cmake-build-debug/CMakeFiles/rebuild_cache.dir

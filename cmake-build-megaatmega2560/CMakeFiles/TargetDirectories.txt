@@ -1,5 +1,0 @@
-/home/victor-borges/Source/embedded-systems/arduino-debug-template/cmake-build-megaatmega2560/CMakeFiles/Production.dir
-/home/victor-borges/Source/embedded-systems/arduino-debug-template/cmake-build-megaatmega2560/CMakeFiles/Debug.dir
-/home/victor-borges/Source/embedded-systems/arduino-debug-template/cmake-build-megaatmega2560/CMakeFiles/Z_DUMMY_TARGET.dir
-/home/victor-borges/Source/embedded-systems/arduino-debug-template/cmake-build-megaatmega2560/CMakeFiles/edit_cache.dir
-/home/victor-borges/Source/embedded-systems/arduino-debug-template/cmake-build-megaatmega2560/CMakeFiles/rebuild_cache.dir
