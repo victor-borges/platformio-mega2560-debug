@@ -1,0 +1,711 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_MEGA2560"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=60104"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__AVR_ATmega2560__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/victor-borges/Source/embedded-systems/arduino-debug-template/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/victor-borges/Source/embedded-systems/arduino-debug-template/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/victor-borges/Source/embedded-systems/arduino-debug-template/.pio/libdeps/megaatmega2560/avr-debugger/avr8-stub"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/variants/mega"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/victor-borges/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include-fixed"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/victor-borges/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/victor-borges/.platformio/packages/toolchain-atmelavr@1.50400.190710/avr/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				12,
+				26
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_MEGA2560"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=60104"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__AVR_ATmega2560__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/victor-borges/Source/embedded-systems/arduino-debug-template/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/victor-borges/Source/embedded-systems/arduino-debug-template/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/victor-borges/Source/embedded-systems/arduino-debug-template/.pio/libdeps/megaatmega2560/avr-debugger/avr8-stub"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/variants/mega"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/victor-borges/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/victor-borges/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include-fixed"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/victor-borges/.platformio/packages/toolchain-atmelavr@1.50400.190710/lib/gcc/avr/5.4.0/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/victor-borges/.platformio/packages/toolchain-atmelavr@1.50400.190710/avr/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				20,
+				40
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				12,
+				20,
+				26,
+				32,
+				33,
+				40
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				8,
+				9,
+				10,
+				11,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				21,
+				22,
+				23,
+				24,
+				25,
+				27,
+				28,
+				29,
+				30,
+				31,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				41,
+				42,
+				43,
+				44,
+				45
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/avr8-stub/app_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/avr8-stub/app_api.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/avr8-stub/avr8-stub.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/avr8-stub/avr8-stub.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/avr8-stub/avr_debugger.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/blink_mega/.cproject",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/blink_mega/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/blink_mega/.project",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/blink_mega/.settings/de.innot.avreclipse.core.prefs",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/blink_mega/blink.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/blink_mega/blink_mega Debug COM5.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/blink_mega/blink_mega TCP.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/c_mega/.cproject",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/c_mega/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/c_mega/.project",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/c_mega/.settings/de.innot.avreclipse.core.prefs",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/c_mega/c_mega Debug COM5.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/c_mega/c_mega.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega2560/readme.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/.cproject",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/.project",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/.settings/de.innot.avreclipse.core.prefs",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/blink.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/blink_nano COM14.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/blink_nano TCP.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/blink_uno Debug COM.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/blink_uno Debug Load.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/blink_uno TCP.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/debug_com.bat",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/debug_tcp.bat",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/blink_uno/gdb_logfile.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/c_uno/.cproject",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/c_uno/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/c_uno/.project",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/c_uno/.settings/de.innot.avreclipse.core.prefs",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/c_uno/c_uno Debug COM.launch",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/c_uno/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/examples/mega328/readme.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/library.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/license.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/avr-debugger/readme.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/megaatmega2560/integrity.dat",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
